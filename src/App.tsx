@@ -4,9 +4,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  if (Math.random() > 0.5) return null;
-
   const [count, setCount] = useState(0);
+
+  if (Math.random() > 0.5) return null;
 
   return (
     <>
